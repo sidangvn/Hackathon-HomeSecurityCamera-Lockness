@@ -55,7 +55,8 @@ now = datetime.now() #Present time is fetched
 engine = pyttsx3.init() #initial python text to speech
 
 #The welcome speech
-engine.say('Hello everyone! I am Lockness! Welcome to my life. I am belong to the home security camera family, but I am smart. Actually, I am not as smart as the other echo machines, but I am an awesome machine in smaller scale! Cheeeeeeeeeers!')
+engine.say('Hello everyone! I am Lockness! Welcome to my life. I am belong to the home security camera family, but I am smart.')
+engine.say('Actually, I am not as smart as the other echo machines, but I am an awesome machine in smaller scale! Cheeeeeeeeeers!')
 engine.runAndWait()
 
 time_counter = 0  #resets daily routine after midnight
