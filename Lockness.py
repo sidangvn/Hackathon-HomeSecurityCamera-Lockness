@@ -2,7 +2,7 @@
 This program mimics the function of artificial intelligence (A.I.) that
 can be used for smart home security with a Raspberry Pi or a computer webcam.
 The API twilio is used to allow the user to receive a text message from the program to the user's phone
-when activity is detected between every 30 frames.
+when activity is detected between every 100 frames.
 Also, the program can help you with your daily routine by reminding you to wake up, sleep, and eat,
 like a companion. 
 
