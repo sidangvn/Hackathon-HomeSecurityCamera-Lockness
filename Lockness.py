@@ -30,10 +30,10 @@ from twilio.rest import Client  #twilio API package
 from skimage.measure import compare_ssim   #scikit image package
 
 #twilio text message notification account's information
-ACCOUNT_SID = 'ACd851bfcf7ce74642a916eee1d0a20e8d'
-AUTH_TOKEN = '7d5586cca53ce112cdef5c166fc6ea47'
-TWILIO_PHONE = '+17273502190 '   #sender phone number
-RECEIVER_PHONE = '+18138175237'  #receiver phone number
+ACCOUNT_SID = 'ACd851bfcf7ce74642xxxxxxxxxxxxxxxxxxx'
+AUTH_TOKEN = '7d5586cca53ce11xxxxxxxxxxx'
+TWILIO_PHONE = '+17273xxxxx'   #sender phone number
+RECEIVER_PHONE = '+181xxxxx'  #receiver phone number
 
 #structural similarity method from skimage package
 def ssim(A, B):
